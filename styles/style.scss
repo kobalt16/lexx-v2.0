@@ -13,7 +13,7 @@ body {
     height: 100px;
     
     background-size: 300px 100px;
-    background-image: url(https://github.com/kobalt16/lexx-v2.0/blob/main/img/lexx.png);
+    background-image: url("https://github.com/kobalt16/lexx-v2.0/blob/main/img/lexx.png");
     position: relative;
     top: 350px;
     left: 30px;
@@ -26,7 +26,7 @@ body {
     position: absolute;
     top: 380px;
     left: 330px;
-    background-image: url(https://github.com/kobalt16/lexx-v2.0/blob/main/img/fire.png);
+    background-image: url("https://github.com/kobalt16/lexx-v2.0/blob/main/img/fire.png");
     z-index: 6;
     // transition: all 1s;
 }
@@ -34,7 +34,7 @@ body {
 #planet {
     width: 300px;
     height: 300px;
-    background-image: url(https://github.com/kobalt16/lexx-v2.0/blob/main/img/planet.png);
+    background-image: url("https://github.com/kobalt16/lexx-v2.0/blob/main/img/planet.png");
     background-size: 300px 300px;
     position: relative;
     top: 110px;
@@ -72,7 +72,7 @@ body {
 @mixin blik() {
     width: 15px;
     height: 15px;
-    background-image: url(https://github.com/kobalt16/lexx-v2.0/blob/main/img/blik.png);
+    background-image: url("https://github.com/kobalt16/lexx-v2.0/blob/main/img/blik.png");
     background-size: 15px 15px;
     position: relative;
     left: 580px;
